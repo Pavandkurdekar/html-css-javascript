@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cards-container {
+  color: white;
+  margin: 1.5rem;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 910px;
+  flex-wrap: wrap;
+}
+.orange-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 250px;
+  background-color: orange;
+  padding: 25px;
+  justify-content: space-evenly;
+}
+.darkGreen-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 250px;
+  background-color: green;
+  padding: 25px;
+  justify-content: space-evenly;
+}
+
+.lightGreen-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 250px;
+  background-color: yellowgreen;
+  padding: 25px;
+  justify-content: space-evenly;
+}
+button {
+  height: 45px;
+  border-radius: 50px;
+  border: 2px solid rgb(237, 227, 227);
+  color: rgb(237, 227, 227);
+}
+img {
+  height: 60px;
+  width: 110px;
+  border-radius: 15px;
+}
+
+.lightGreen-card button {
+  background-color: yellowgreen;
+}
+
+.darkGreen-card button {
+  background-color: green;
+}
+
+.orange-card button {
+  background-color: orange;
+}
+* {
+  color: white;
+}
+p {
+  line-height: 25px;
+}
